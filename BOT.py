@@ -63,13 +63,14 @@ async def send_command(cmd):
 async def on_message(message):
     if message.author == client.user:
         return
-    if not any(role.name == ROLE for role in message.author.roles):
-        await message.channel.send('Permission Denied!!')
-        return
     if client.user.mentioned_in(message):
-        await message.channel.send('Let Me Think 🤔')
-        cmd = message.content.split(f'<@{client.user.id}>')[1].strip()
-        await send_command(cmd)
+        if not any(role.name == ROLE for role in message.author.roles):
+            await message.channel.send('Permission Denied!!')
+            return
+        else:
+            await message.channel.send('Let Me Think 🤔')
+            cmd = message.content.split(f'<@{client.user.id}>')[1].strip()
+            await send_command(cmd)
 
 @client.event
 async def on_ready():
