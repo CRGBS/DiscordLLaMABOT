@@ -22,7 +22,7 @@ msgr = None   # 声明变量 msgr 并初始化为 None 对象
 async def open_exe_file():
     global process, collected_text
     # edit to your llamacpp location
-    command = "title MH8BOT & J:/GPTAI/llamacpp/main.exe -m zh-models/13B/ggml-model-q5_0.bin -f prompts/alpaca.txt -ins -c 2048 --temp 0.2 -n 256 -t 7 --top_k 40 --top_p 0.5 --repeat_last_n 256 --batch_size 1024 --repeat_penalty 1.17647 --temp 0.68"
+    command = "chcp 65001 & title MH8BOT & J:/GPTAI/llamacpp/main.exe -m zh-models/13B/ggml-model-q5_0.bin -f prompts/alpaca.txt -ins -c 2048 --temp 0.2 -n 256 -t 7 --top_k 40 --top_p 0.5 --repeat_last_n 256 --batch_size 1024 --repeat_penalty 1.17647 --temp 0.68"
     process = await asyncio.create_subprocess_shell(
         command, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE,
         stdin=asyncio.subprocess.PIPE, shell=True, env=os.environ
