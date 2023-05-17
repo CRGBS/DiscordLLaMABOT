@@ -26,10 +26,15 @@
    [llamacpp](https://github.com/ggerganov/llama.cpp)
 
    通過修改 bot.py 文件自定義機器人配置。
+   
    BOT_TOKEN, CHANNEL_ID , ROLE, command
+   
    BOT_TOKEN 請向Discord申請
+   
    CHANNEL_ID 為允許使用的頻道
+   
    ROLE 是允許使用的權限組
+   
    command 是運行的參數，切記要將llamacpp修改為你的路徑
     
 #### 運行機器人：
