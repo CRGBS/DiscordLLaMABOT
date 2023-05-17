@@ -1,4 +1,4 @@
-# Discord Bot 搭配 LLAMA 語言模型
+# Discord LLAMA BOT
 
 這個項目是一個 Discord 機器人，能讓你將 LLAMA 語言模型運行再 Discord 上，使其能夠參與對話並回應使用者的輸入。它利用 LLAMA 語言模型的強大功能生成智能且具有上下文的回應。
 #### 功能
