@@ -50,8 +50,8 @@
   該項目在 APACHE-2.0 許可證下發布 - 請參閱 LICENSE 文件瞭解詳細信息。
   鳴謝
 
-    ggerganov 提供的 llamacpp 應用程式，網址：[LLAMA AI](https://github.com/ggerganov/llama.cpp)
-    Rapptz 開發的 Discord.py 庫，網址：[Rapptz](https://github.com/Rapptz/discord.py)
+   ggerganov 提供的 llamacpp 應用程式，網址：[LLAMA AI](https://github.com/ggerganov/llama.cpp)
+   Rapptz 開發的 Discord.py 庫，網址：[Rapptz](https://github.com/Rapptz/discord.py)
 
 
 #### 貢獻
