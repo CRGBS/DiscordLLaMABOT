@@ -51,7 +51,8 @@
 #### 許可證
 
   該項目在 APACHE-2.0 許可證下發布 - 請參閱 LICENSE 文件瞭解詳細信息。
-  鳴謝
+  
+#### 鳴謝
 
    ggerganov 提供的 llamacpp 應用程式，網址：[llamacpp](https://github.com/ggerganov/llama.cpp)
    
